@@ -1,0 +1,1 @@
+twurl -A 'Content-type: application/json' /1.1/direct_messages/welcome_messages/new.json -d '{"name": "simple_welcome-message 01", "welcome_message": {"message_data": {"text": "seja bem vindo!", "attachment": {"type": "media", "media": {"id": "20209458"}}}}}'
