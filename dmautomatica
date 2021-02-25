@@ -1,1 +1,10 @@
-twurl -A 'Content-type: application/json' /1.1/direct_messages/welcome_messages/new.json -d '{"name": "simple_welcome-message 01", "welcome_message": {"message_data": {"text": "seja bem vindo!", "attachment": {"type": "media", "media": {"id": "20209458"}}}}}'
+twurl -A 'Content-type: application/json' /1.1/direct_messages/welcome_messages/new.json -d '{"name": "simple_welcome-message 01", "welcome_message": {"message_data": {"text": "
+Hola, bienvenido a Danna Paola Sitio.¡Que bueno es tenerte aqui!
+
+No somos Danna Paola, somos una pagina de fans en apoyo a ella.
+
+Gracias por escribirnos, trataremos de responderte lo mas pronto posible.
+
+Asegúrete de seguirnos en las redes sociales y seguir las principales noticias en nuestro sitio web.
+www.instagram.com/dannapaolasitio
+www.dannapaola.com.br", "attachment": {"type": "media", "media": {"id": "20209458"}}}}}'
